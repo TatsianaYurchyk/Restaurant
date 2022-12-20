@@ -214,7 +214,7 @@ position: relative;
 .destination_contacts{
     background: url(./Images/map.jpg) no-repeat center;
     width: 746px;
-    height: 450px;
+    height: 400px;
     position: relative;
 }
 .contacts_block:hover{
@@ -259,3 +259,19 @@ margin-left: 40px;
 .button:hover{
     background: hsla(22, 95%, 34%, 0.356);
 }
+
+/* Main style end */
+
+/* footer style start */
+.footer{
+    width: 100%;
+    background:#333333;
+}
+.footer_info{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* footer style end */
