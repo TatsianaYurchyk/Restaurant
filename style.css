@@ -61,11 +61,6 @@ overflow: auto;
     transition: 0.8s;
 }
 
-.display{
-    display: block;
-}
-
-
 
 .main_image {
     margin-left: 120px;
@@ -137,6 +132,39 @@ overflow: auto;
     height: 30px;
     margin: 0px 45px 20px 45px;
 }
+
+.burger_self{
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin: 30px 20px 20px 20px;
+    
+}
+
+.burger_line{
+    display: block;
+    height:3px;
+    width: 100%;
+    background-color: #B59571;
+    /* background-color: hsla(41, 95%, 34%, 0.993); */
+   
+    position: absolute;
+    right: 0;
+}
+.burger_line_top{
+    top: 0;
+}
+.burger_line_center{
+   top: 45%;
+   /* transform: translateY(-50%); */
+}
+.burger_line_bottom{
+    bottom: 0;
+}
+
+
+
 /* Intro Header style end */
 
 /* Main style start */
@@ -314,15 +342,10 @@ margin-left: 40px;
     background-color: #333333ef;
     color: white;
     box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
-
-
-
-
-
 }
 
 .button:hover{
-    background: hsla(22, 95%, 34%, 0.356);
+    background: #B59571;
 }
 
 /* Main style end */
@@ -469,12 +492,10 @@ margin-left: 40px;
     .about_pretitle .card_pretitle{margin-top: 30px;}
   
     
-    .burger{
-        background: url(./Images/burger.png) no-repeat center;
-        width: 30px;
-        height: 30px;
-        
-    }
+    .burger_self{
+        display: block;}
+
+    
     .wrapper_cards{
         /* max-width: 856px; */
         text-align: right;
@@ -508,9 +529,10 @@ margin-left: 40px;
   } 
   
   
-}
+
   
   
   
   
   
+  }
